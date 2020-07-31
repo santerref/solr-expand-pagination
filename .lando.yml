@@ -1,0 +1,9 @@
+name: solr-grouping
+recipe: lamp
+config:
+  php: '7.3'
+  webroot: .
+services:
+  solr:
+    type: solr:7
+    portforward: true
